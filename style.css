@@ -6,13 +6,13 @@
         
         background-color: black;
         font-family: 'Roboto', sans-serif;
-        background: linear-gradient(to right, #396afc, #2948ff);
+        background: linear-gradient(180deg, rgb(3, 95, 141) 0%, rgb(34, 64, 153) 50%);
             
  }
 
 .container { width: 100vw;
 height: 100vh;
-background: linear-gradient(to right, #396afc, #2948ff);
+background: linear-gradient(180deg, rgb(3, 95, 141) 0%, rgb(34, 64, 153) 50%);
 display: flex;
  padding: 20px 5px;
 justify-content: center;
@@ -21,7 +21,7 @@ align-items: center;
 }
 
 .box {
- background: linear-gradient(to right, #396afc, #2948ff);
+ background: linear-gradient(180deg, rgb(3, 95, 141) 0%, rgb(34, 64, 153) 50%);
 padding-top: 50px;
 padding-left: 20px;
 padding-right: 30px;
