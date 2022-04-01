@@ -70,10 +70,10 @@ button {
 }
 
 div#video { background-image: url(bg.png);
-    background-size: cover ;
+    background-size: cover;
     background-position: auto;
     width: 800px;
-    height: 700px;
+    height: 720px;
 
 }
 
