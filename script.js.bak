@@ -4,27 +4,22 @@ var myMusicDoHtml = document.getElementById("linkMusic");
 var myMusicInput = myMusicDoHtml.value;
 var myMusicInputID = myMusicInput.substr(17) 
 
-console.log(myMusicInputID)
-
-
 
 
 var linkMusicNaTela = document.getElementById("video");
-var link = '<iframe width="600" height="620" src="https://www.youtube.com/embed/${myMusicInputID}" title="player" frameborder="0" allow="autoplay; clipboard-write;></iframe>'
-var musicName = '<h1><font color="white">Faixa Desconhecida</font><h1><h1><font color="gray">Artista Desconhecido</font></h1>'
-var linkFinal = link + musicName
+var linkEmbedID = "https://www.youtube.com/embed/" + myMusicInputID
+var linkIframe = '<iframe width="670" height="640" src="' +linkEmbedID+ '" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>'
+var linkArtista = '<h1><font color="red"><u>Faixa Desconhecida</u></font><h1><h2><font color="white">Reproduzindo agora</font></h2>'
+var linkFinal = linkIframe + linkArtista
 
 console.log(linkFinal)
 
 linkMusicNaTela.innerHTML = linkFinal
 
 
-
 }
-//<iframe width="450" height="370" src="https://www.youtube.com/embed/_YMXB9qzc2I" //title="player" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>
 
 
-//https://youtu.be/zp9mQbGvndw
 
 
 
