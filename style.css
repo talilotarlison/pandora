@@ -1,5 +1,5 @@
 html, body {
-    min-height: 300%;
+    min-height: 100%;
     background-color:  black;
     font-family: 'Roboto', sans-serif;
 }
@@ -28,18 +28,18 @@ color:  gray;
 
 }
 .menu > li{
-      margin: 10px;
+      margin: 20px;
       
 
 }
 
 .img{display:flex;
-    margin: 10px;
+    margin: 20px;
     
    
 }
 .perfil{display:flex;
-    margin: 15px;
+    margin: 25px;
     
    
 }
@@ -67,8 +67,8 @@ footer {display: flex;
 
 #video {position: absolute;
     
-  width: 400px;
-    height: 400px;
+  width: 800px;
+    height: 800px;
 
   margin:auto;
   top: 0;
