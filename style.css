@@ -65,7 +65,7 @@ footer {display: flex;
     line-height: 50px;
 }
 
-#video {position: absolute;
+#video {position: fixed;
     
   width: 800px;
     height: 800px;
